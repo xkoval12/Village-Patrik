@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>GameServer</RootNamespace>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\Domain.Contract\Domain.Contract.csproj" />
+      <ProjectReference Include="..\GameServer.Abstractions\GameServer.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

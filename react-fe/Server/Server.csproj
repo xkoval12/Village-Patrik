@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Domain.Contract\Domain.Contract.csproj" />
     <ProjectReference Include="..\Common\Application.Web.Common\Application.Web.Common.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\client\client.esproj">

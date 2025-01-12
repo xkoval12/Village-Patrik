@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScript.Api.Generator.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Web.Common", "Common\Application.Web.Common\Application.Web.Common.csproj", "{8779C8C5-881D-444E-A9EC-AC4A984EA3E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Contract", "..\Shared\Domain.Contract\Domain.Contract.csproj", "{D2F32ED1-C750-426D-80DB-AA42CCDEB5DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{8779C8C5-881D-444E-A9EC-AC4A984EA3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8779C8C5-881D-444E-A9EC-AC4A984EA3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8779C8C5-881D-444E-A9EC-AC4A984EA3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F32ED1-C750-426D-80DB-AA42CCDEB5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F32ED1-C750-426D-80DB-AA42CCDEB5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F32ED1-C750-426D-80DB-AA42CCDEB5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F32ED1-C750-426D-80DB-AA42CCDEB5DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,7 @@ public class TypeScriptApiGeneratorTests
             directoryPath = Path.GetDirectoryName(directoryPath)!;
         }
 
-        string clientDirectoryPath = Directory.GetDirectories(directoryPath, "*", SearchOption.TopDirectoryOnly)
+        string clientDirectoryPath = Directory.GetDirectories(directoryPath, "*", SearchOption.AllDirectories)
             .First(d => Path.GetFileName(d.ToLower()).Contains("client"));
 
         string apiDirectoryPath = Path.Combine(clientDirectoryPath, "src", "Api");

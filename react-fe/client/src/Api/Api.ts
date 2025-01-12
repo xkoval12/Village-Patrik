@@ -17,11 +17,20 @@ export class Test {
 
 }
 
+export class Village {
+    GetVillage(applicationContext: IApplicationContext): Promise<IVillageDto> {
+        return GetJson("village", "getvillage", applicationContext);
+    }
+
+}
+
 export class ApiContext {
     Test: Test;
+    Village: Village;
 
     constructor() {
         this.Test = new Test();
+        this.Village = new Village();
     }
 }
 
@@ -37,5 +46,14 @@ export interface IErrorResponse {
 
 export interface IDummyResult {
     someValue: string;
+}
+
+export interface ILumberjackDto {
+    houseNumber: number;
+    storage: number;
+}
+
+export interface IVillageDto {
+    lumberjack: ILumberjackDto;
 }
 
